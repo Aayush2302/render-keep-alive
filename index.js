@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 3000;
 
 const PING_URLS = [
   "https://active-industries.co.in/",
-  "https://active-yoc6.onrender.com/"
+  "https://active-yoc6.onrender.com/",
+  "https://active-yoc6.onrender.com/api/view/productsall"
 ];
 
 const pingAllServers = async () => {
